@@ -1,0 +1,15 @@
+{{#if hayResultados}}
+<a class='og-consulta og-con-resultados'>
+  <span>
+    <img title="Ha sido premiado" class='papelera' src='{{this/urlImagenHayResultado}}' />
+    Premiado</span>
+</a>
+
+{{else}}
+<a class='og-consulta og-sin-resultados'>
+  <span></span>
+  <img title="No ha sido premiado" class='papelera' src='{{this/urlImagenNoHayResultado}}' />
+  No premiado</span>
+</a>
+
+{{/if}}

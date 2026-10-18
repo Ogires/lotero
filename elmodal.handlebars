@@ -1,0 +1,20 @@
+{{#if this.length}}
+<div class="og-modal">
+    <table class="og-tabla-resultados">
+        <tr>
+            <th>Fecha</th>            
+            <th>Juego</th>
+            <th></th>
+        </tr>
+    {{#each this}}
+        <tr>
+            <td>{{this.fecha}}</td>
+            <td>{{this.juego}}</td>
+            <td><img src='{{this/imagen}}' class="og-logo" /></td>
+        </tr>
+    {{/each}}
+    </table>
+</div>
+{{else}}
+<h4>Nunca ha sido premiado.</h4>
+{{/if}}
