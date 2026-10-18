@@ -1,4 +1,22 @@
+# Dependencias y builds
 node_modules/
+dist/
+
+# Cloudflare Workers / wrangler
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Datos generados por los scripts de carga del histórico
+scripts/salida/
+scripts/cache/
+
+# Artefactos de empaquetado y claves (nunca en git)
 publish/
+publish.*
+*.pem
+*.crx
+extension*.zip
+
 # Documentos locales de trabajo
 PLAN-relanzamiento.md
