@@ -5,7 +5,9 @@
   "engines": {
     "node": ">=22"
   },
-  "workspaces": [],
+  "workspaces": [
+    "api"
+  ],
   "scripts": {
     "lint": "biome ci .",
     "format": "biome check --write .",

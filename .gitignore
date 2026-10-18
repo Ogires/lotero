@@ -20,3 +20,6 @@ extension*.zip
 
 # Documentos locales de trabajo
 PLAN-relanzamiento.md
+
+# Tipos generados por `wrangler types`
+api/worker-configuration.d.ts
