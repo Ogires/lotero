@@ -11,8 +11,8 @@ import { join } from "node:path";
 import { type Juego, numeroCincoCifras, type Organismo, type Premio } from "../../api/src/tipos";
 import { DIR_SCRIPTS } from "./red";
 
-/** Ubicación habitual del volcado: carpeta hermana del repositorio. */
-export const DIR_VOLCADO = join(DIR_SCRIPTS, "..", "..", "Sqls Exportacion");
+/** Ubicación habitual del volcado: `legado-2019/` junto al repositorio (ver LEEME.md de la carpeta superior). */
+export const DIR_VOLCADO = join(DIR_SCRIPTS, "..", "..", "legado-2019", "Sqls Exportacion");
 
 const JUEGO_POR_LOTERIA: Record<string, { organismo: Organismo; juego: Juego }> = {
   "1": { organismo: "ONCE", juego: "CUPON_DIARIO" },

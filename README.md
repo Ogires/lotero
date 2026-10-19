@@ -51,7 +51,7 @@ Los scripts descargan con pausas de 1,5 s entre peticiones y guardan una caché 
 ```sh
 npm run backfill:once -w scripts      # cupones ONCE, mes a mes desde 1996 (~10 min)
 npm run backfill:lnac -w scripts      # Lotería Nacional desde 2007 (API de SELAE)
-npm run importar:volcado -w scripts   # adicionales ONCE del volcado de 2019 (carpeta "Sqls Exportacion")
+npm run importar:volcado -w scripts   # adicionales ONCE del volcado de 2019 (../legado-2019/Sqls Exportacion, fuera del repo)
 npm run validar -w scripts            # compara lo descargado con el volcado
 
 # Carga en la D1 local (o --remote para producción)
