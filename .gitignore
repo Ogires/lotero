@@ -23,3 +23,8 @@ PLAN-relanzamiento.md
 
 # Tipos generados por `wrangler types`
 api/worker-configuration.d.ts
+.playwright-mcp/
+extension/dist/
+extension/test-results/
+extension/playwright-report/
+extension/lotero-*.zip

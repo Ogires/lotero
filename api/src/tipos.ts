@@ -38,6 +38,24 @@ export interface Premio {
   fuente: Fuente;
 }
 
+/** Respuesta de `GET /api/resultados/:numero` (la consume la extensión). */
+export interface ResultadoConsulta {
+  fecha: string;
+  organismo: Organismo;
+  juego: Juego;
+  juegoNombre: string;
+  tipo: TipoPremio;
+  tipoNombre: string;
+  serie: string | null;
+  sorteo: string | null;
+}
+
+export interface RespuestaConsulta {
+  numero: string;
+  hayResultados: boolean;
+  resultados: ResultadoConsulta[];
+}
+
 /** Tareas de la actualización diaria (workflow de GitHub → `POST /admin/ingesta`). */
 export const TAREAS_INGESTA = ["once-feed", "once-historico", "lnac"] as const;
 

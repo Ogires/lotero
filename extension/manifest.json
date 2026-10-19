@@ -1,41 +1,23 @@
 {
-    "manifest_version": 2,
-    "name": "lotero",
-    "description": "Consulta si un número de lotería propuesto en juegosonce.es ha sido premiado anteriormente en sorteos de la Once o la Lotería Nacional",
-    "version": "0.1",
-    "author": "Sergio Bonet",
-    "browser_action": {
-        "default_icon": "icon.png",
-        "default_title": "Lotero"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*.juegosonce.es/*"
-            ],
-            "css": [
-                "style.css",
-                "node_modules/jquery-modal/jquery.modal.min.css"
-            ],
-            "js": [
-                "handlebars-v4.1.1.js",
-                "plantilla.js",
-                "elmodal.js",
-                "jquery-3.3.1.js",
-                "node_modules/jquery-modal/jquery.modal.min.js",                
-                "contentScript.js"
-            ]
-        }
-    ],
-    "web_accessible_resources": [
-        "images/eye.svg",
-        "images/eye-slash.svg",
-        "images/logo-once.png",
-        "images/logo-lne.png"
-    ],
-    "permissions": [
-        "activeTab",
-        "https://loto-chanante.appspot.com/*",
-        "http://loto-chanante.appspot.com/*"
-    ]
+  "manifest_version": 3,
+  "name": "Lotero",
+  "version": "1.0.0",
+  "description": "Comprueba en juegosonce.es si el número del cupón ya ha salido premiado en la ONCE o en la Lotería Nacional. No oficial.",
+  "icons": {
+    "16": "iconos/icono-16.png",
+    "32": "iconos/icono-32.png",
+    "48": "iconos/icono-48.png",
+    "128": "iconos/icono-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.juegosonce.es/cupon-diario*",
+        "https://www.juegosonce.es/cuponazo*",
+        "https://www.juegosonce.es/sueldazo-fin-de-semana*"
+      ],
+      "js": ["contenido.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }

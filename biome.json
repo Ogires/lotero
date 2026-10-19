@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!**/worker-configuration.d.ts", "!extension", "!**/test/fixtures"]
+    "includes": ["**", "!**/worker-configuration.d.ts", "!**/test/fixtures"]
   },
   "formatter": {
     "enabled": true,

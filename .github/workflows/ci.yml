@@ -29,3 +29,26 @@ jobs:
         run: npm run typecheck
       - name: Tests
         run: npm test
+
+  e2e:
+    name: E2E de la extensión
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Chromium de Playwright
+        run: npx playwright install --with-deps chromium
+        working-directory: extension
+      - name: Compilar y probar
+        run: npm run test:e2e -w extension
+      - name: Paquete para la Chrome Web Store
+        run: npm run empaquetar -w extension
+      - uses: actions/upload-artifact@v7
+        with:
+          name: extension
+          path: extension/lotero-*.zip
+          if-no-files-found: error

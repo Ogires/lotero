@@ -1,24 +1,9 @@
 // Caso de uso: ¿ha salido premiado este número alguna vez?
 
 import { buscarPremiosPorNumero } from "./db";
-import { type Juego, NOMBRE_JUEGO, NOMBRE_TIPO, type Organismo, type TipoPremio } from "./tipos";
+import { NOMBRE_JUEGO, NOMBRE_TIPO, type RespuestaConsulta } from "./tipos";
 
-export interface ResultadoConsulta {
-  fecha: string;
-  organismo: Organismo;
-  juego: Juego;
-  juegoNombre: string;
-  tipo: TipoPremio;
-  tipoNombre: string;
-  serie: string | null;
-  sorteo: string | null;
-}
-
-export interface RespuestaConsulta {
-  numero: string;
-  hayResultados: boolean;
-  resultados: ResultadoConsulta[];
-}
+export type { RespuestaConsulta, ResultadoConsulta } from "./tipos";
 
 export async function consultarNumero(db: D1Database, numero: string): Promise<RespuestaConsulta> {
   const premios = await buscarPremiosPorNumero(db, numero);

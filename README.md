@@ -6,8 +6,6 @@ No está afiliada a la ONCE ni a Loterías y Apuestas del Estado.
 
 ## Estructura
 
-> Relanzamiento en curso: `extension/` contiene aún la versión de 2019 a la espera de migrarla a Manifest V3.
-
 | Carpeta | Contenido |
 |---|---|
 | `extension/` | Extensión de Chrome (Manifest V3) |
@@ -25,6 +23,17 @@ npm install
 npm run check      # lint (Biome) + tipos + tests
 npm run format     # aplica el formato de Biome
 npm run test:live  # tests de contrato contra las webs reales (usa la red)
+```
+
+### Extensión
+
+Content script en TypeScript, empaquetado con esbuild en `extension/dist/`. No pide permisos: la API acepta por CORS el origen de juegosonce.es.
+
+```sh
+npm run build -w extension        # compila en extension/dist (cargar "sin empaquetar" en chrome://extensions)
+npm run test:e2e -w extension     # E2E con Playwright: páginas guardadas + API simulada
+npm run empaquetar -w extension   # extension/lotero-<versión>.zip para la Chrome Web Store
+node extension/iconos/generar.mjs # regenera los PNG del icono desde icono.svg
 ```
 
 ### API en local

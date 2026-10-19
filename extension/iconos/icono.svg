@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img">
+  <title>Lotero</title>
+  <!-- Icono propio de Lotero: un cupón con una marca de comprobación. Sin logos de terceros. -->
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="#1f3b73"/>
+  <path d="M22 38h84v16a10 10 0 0 0 0 20v16H22V74a10 10 0 0 0 0-20z" fill="#ffffff"/>
+  <path d="M40 38v52" stroke="#1f3b73" stroke-width="3" stroke-dasharray="5 5"/>
+  <circle cx="86" cy="88" r="24" fill="#f2b705" stroke="#1f3b73" stroke-width="5"/>
+  <path d="M75 88l8 8 15-16" fill="none" stroke="#1f3b73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
