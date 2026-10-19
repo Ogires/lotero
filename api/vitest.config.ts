@@ -12,7 +12,11 @@ export default defineConfig(async () => {
       cloudflareTest({
         wrangler: { configPath: "./wrangler.jsonc" },
         miniflare: {
-          bindings: { TEST_MIGRATIONS: migraciones },
+          bindings: {
+            TEST_MIGRATIONS: migraciones,
+            ADMIN_TOKEN: "token-de-prueba",
+            GITHUB_DISPATCH_TOKEN: "github-de-prueba",
+          },
         },
       }),
     ],

@@ -54,17 +54,26 @@ done
 
 ### Actualización diaria
 
-El Worker se ejecuta a las 22:00 y a las 07:00 UTC (`triggers` en `api/wrangler.jsonc`) y lanza tres tareas independientes, registradas en la tabla `ejecuciones`:
+SELAE bloquea las peticiones que salen de Cloudflare, así que la recogida se hace en GitHub Actions:
 
-- `once-feed`: último sorteo de cada cupón, con los adicionales del Sueldazo;
-- `once-historico`: histórico del mes en curso (y del anterior los tres primeros días), para recuperar sorteos perdidos;
-- `lnac`: Lotería Nacional de los últimos diez días.
+1. El cron del Worker (22:00 y 07:00 UTC) dispara el workflow `actualizar.yml` (`workflow_dispatch`).
+2. El workflow ejecuta `npm run actualizar -w scripts`, con tres tareas independientes:
+   - `once-feed`: último sorteo de cada cupón, con los adicionales del Sueldazo;
+   - `once-historico`: histórico del mes en curso (y del anterior los tres primeros días);
+   - `lnac`: Lotería Nacional de los últimos diez días.
+3. Cada tarea envía lo recogido a `POST /admin/ingesta`, que guarda los premios y registra la ejecución en la tabla `ejecuciones`.
+
+Secretos:
+
+| Dónde | Nombre | Uso |
+|---|---|---|
+| Worker | `ADMIN_TOKEN` | Autoriza `POST /admin/ingesta` |
+| Worker | `GITHUB_DISPATCH_TOKEN` | Token de grano fino (solo este repo, Actions: lectura y escritura) para disparar el workflow |
+| GitHub | `LOTERO_ADMIN_TOKEN` | El mismo valor que `ADMIN_TOKEN` |
 
 ```sh
-cd api
-npx wrangler dev --test-scheduled
-curl "http://localhost:8787/__scheduled?cron=0+22+*+*+*"
-npx wrangler d1 execute lotero --local --command "SELECT * FROM ejecuciones ORDER BY id DESC LIMIT 6"
+gh workflow run actualizar.yml   # lanzarlo a mano
+cd api && npx wrangler d1 execute lotero --remote --command "SELECT * FROM ejecuciones ORDER BY id DESC LIMIT 8"
 ```
 
 El workflow `contrato.yml` ejecuta cada lunes los tests `live` y abre una issue si alguna fuente cambia.

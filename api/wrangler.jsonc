@@ -13,11 +13,16 @@
     }
   ],
   "triggers": {
+    // Disparan el workflow de GitHub que recoge los premios (ver src/disparo.ts).
     // 22:00 UTC, tras los sorteos de las 21:00 en España; 07:00 UTC, recuperación.
     "crons": ["0 22 * * *", "0 7 * * *"]
   },
   "vars": {
     // Orígenes autorizados por CORS, separados por comas.
-    "ORIGENES_PERMITIDOS": "https://www.juegosonce.es"
+    "ORIGENES_PERMITIDOS": "https://www.juegosonce.es",
+    // Workflow que dispara el cron.
+    "GITHUB_REPO": "Ogires/lotero",
+    "GITHUB_WORKFLOW": "actualizar.yml",
+    "GITHUB_RAMA": "main"
   }
 }

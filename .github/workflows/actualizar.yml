@@ -1,0 +1,44 @@
+# Actualización diaria de premios. La dispara el cron del Worker (src/disparo.ts) con
+# workflow_dispatch: SELAE bloquea las peticiones que salen de Cloudflare pero no las de GitHub.
+name: Actualizar premios
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run actualizar -w scripts
+        env:
+          LOTERO_API_URL: https://lotero-api.lotero-api.workers.dev
+          LOTERO_ADMIN_TOKEN: ${{ secrets.LOTERO_ADMIN_TOKEN }}
+
+      - name: Avisar del fallo
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITULO: "Falla la actualización de premios"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          abierta=$(gh issue list --state open --search "in:title \"$TITULO\"" --json number --jq '.[0].number')
+          if [ -n "$abierta" ]; then
+            gh issue comment "$abierta" --body "Sigue fallando: $RUN_URL"
+          else
+            gh issue create --title "$TITULO" --body "La actualización ha fallado: $RUN_URL"
+          fi

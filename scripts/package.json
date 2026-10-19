@@ -7,6 +7,7 @@
     "backfill:lnac": "tsx backfill-lnac.ts",
     "importar:volcado": "tsx importar-volcado-2019.ts",
     "validar": "tsx validar-historico.ts",
+    "actualizar": "tsx actualizar.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:live": "vitest run --config vitest.live.config.ts"

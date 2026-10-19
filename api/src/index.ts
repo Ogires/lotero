@@ -1,10 +1,12 @@
+import { ingesta } from "./admin";
 import { consultarNumero } from "./consulta";
-import { actualizar } from "./cron";
+import { dispararActualizacion } from "./disparo";
 import { cabecerasCors, conCabeceras, error, json, METODOS_PERMITIDOS } from "./http";
 import { numeroCincoCifras } from "./tipos";
 
 const SEGUNDOS_CACHE = 3600;
 const RUTA_RESULTADOS = /^\/api\/resultados\/([^/]*)$/;
+const RUTA_INGESTA = "/admin/ingesta";
 
 async function resultados(
   request: Request,
@@ -33,6 +35,13 @@ async function resultados(
 
 async function enrutar(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
   const { pathname } = new URL(request.url);
+  if (pathname === RUTA_INGESTA) {
+    if (request.method === "POST") return ingesta(request, env);
+    const respuesta = error(405, "metodo_no_permitido", "Método no permitido.");
+    respuesta.headers.set("Allow", "POST");
+    return respuesta;
+  }
+
   const coincidencia = RUTA_RESULTADOS.exec(pathname);
 
   if (!coincidencia) return error(404, "no_encontrado", "Ruta no encontrada.");
@@ -57,15 +66,7 @@ export default {
     return conCabeceras(respuesta, cabecerasCors(request, env.ORIGENES_PERMITIDOS));
   },
 
-  async scheduled(controller, env): Promise<void> {
-    const resultados = await actualizar(env.DB, new Date(controller.scheduledTime));
-    console.log("Actualización", JSON.stringify(resultados));
-    // Lanzar marca la ejecución como fallida en el panel de Cloudflare.
-    const fallidas = resultados.filter((r) => r.filasNuevas === null);
-    if (fallidas.length > 0) {
-      throw new Error(
-        `Tareas fallidas: ${fallidas.map((r) => `${r.tarea} (${r.error})`).join(", ")}`,
-      );
-    }
+  async scheduled(_controller, env): Promise<void> {
+    await dispararActualizacion(env);
   },
 } satisfies ExportedHandler<Env>;

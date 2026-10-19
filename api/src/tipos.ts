@@ -38,6 +38,23 @@ export interface Premio {
   fuente: Fuente;
 }
 
+/** Tareas de la actualización diaria (workflow de GitHub → `POST /admin/ingesta`). */
+export const TAREAS_INGESTA = ["once-feed", "once-historico", "lnac"] as const;
+
+/** Cuerpo de `POST /admin/ingesta`. */
+export interface CargaIngesta {
+  tarea: (typeof TAREAS_INGESTA)[number];
+  /** Instante ISO en que empezó la recogida. */
+  inicio: string;
+  premios: Premio[];
+  /** Error o avisos de la recogida; `null` si fue bien. */
+  error: string | null;
+}
+
+export interface RespuestaIngesta {
+  filasNuevas: number;
+}
+
 export const NOMBRE_JUEGO: Record<Juego, string> = {
   CUPON_DIARIO: "Cupón Diario",
   CUPONAZO: "Cuponazo",
