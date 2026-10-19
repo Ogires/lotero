@@ -1,0 +1,22 @@
+{
+  "name": "@lotero/scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "backfill:once": "tsx backfill-once.ts",
+    "backfill:lnac": "tsx backfill-lnac.ts",
+    "importar:volcado": "tsx importar-volcado-2019.ts",
+    "validar": "tsx validar-historico.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:live": "vitest run --config vitest.live.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
+    "vitest": "4.1.12"
+  },
+  "dependencies": {
+    "node-html-parser": "9.0.5"
+  }
+}

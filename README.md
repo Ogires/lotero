@@ -27,4 +27,29 @@ npm run format     # aplica el formato de Biome
 npm run test:live  # tests de contrato contra las webs reales (usa la red)
 ```
 
+### API en local
+
+```sh
+cd api
+npm run db:migrate:local   # crea el esquema en la D1 local
+npm run dev                # http://localhost:8787/api/resultados/16056
+```
+
+### Carga del histórico
+
+Los scripts descargan con pausas de 1,5 s entre peticiones y guardan una caché en `scripts/cache/` (el mes o año en curso siempre se vuelve a pedir). El SQL resultante queda en `scripts/salida/`.
+
+```sh
+npm run backfill:once -w scripts      # cupones ONCE, mes a mes desde 1996 (~10 min)
+npm run backfill:lnac -w scripts      # Lotería Nacional desde 2007 (API de SELAE)
+npm run importar:volcado -w scripts   # adicionales ONCE del volcado de 2019 (carpeta "Sqls Exportacion")
+npm run validar -w scripts            # compara lo descargado con el volcado
+
+# Carga en la D1 local (o --remote para producción)
+cd api
+for f in once-historico lnac volcado-2019; do
+  npx wrangler d1 execute lotero --local --file ../scripts/salida/$f.sql
+done
+```
+
 La versión publicada en 2019 (Manifest V2) se conserva en el historial de git (commit `b0d8ccf`).

@@ -1,0 +1,2769 @@
+[
+  {
+    "fecha_sorteo": "2019-03-16 13:00:00",
+    "dia_semana": "sábado",
+    "id_sorteo": "1048609022",
+    "game_id": "LNAC",
+    "anyo": "2019",
+    "nombre": "SORTEO DE LOTERÍA NACIONAL",
+    "lugar": "Madrid",
+    "num_sorteo": "22",
+    "premio_bote": "0",
+    "cdc": "10486",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": 600000,
+    "apertura": "2019-03-03 00:00:00",
+    "cierre": "2019-03-16 12:30:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "X",
+    "tipoSorteoGeneral": "S",
+    "premioEspecial": {
+      "numero": null,
+      "fraccion": null,
+      "serie": null,
+      "premio": null,
+      "literalPremio": null,
+      "fila": null,
+      "orden": null,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "97422",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 1,
+      "prize": 6001200,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "94327",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 1200000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "2",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 12,
+        "fila": 12,
+        "orden": 13,
+        "prize": 600,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "3",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 12,
+        "fila": 12,
+        "orden": 13,
+        "prize": 600,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "8",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 12,
+        "fila": 12,
+        "orden": 13,
+        "prize": 600,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2019.S022.pdf",
+    "modelDraw": 102,
+    "escrutinio": [
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "60012",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 97422
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "12000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 94327
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "6",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 12,
+        "ordenCategoria": 13,
+        "resultado": 3
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 16 de marzo de 2019",
+          "urlContenido": "/loteria-nacional/resultados/loteria-nacional-premios-mayores-del-sorteo-del-16-de-marzo-de-2019"
+        },
+        {
+          "tituloRelacion": "Premio Automatico",
+          "tituloContenido": "Primer Premio de Lotería Nacional del SORTEO DE LOTERÍA NACIONAL del 16 de marzo de 2019",
+          "urlContenido": "/premios/primer-premio-de-loteria-nacional-del-sorteo-de-loteria-nacional-del-16-de-marzo-de-2019"
+        },
+        {
+          "tituloRelacion": "Premio Automatico 2",
+          "tituloContenido": "Segundo Premio de Lotería Nacional del SORTEO DE LOTERÍA NACIONAL del 16 de marzo de 2019",
+          "urlContenido": "/premios/segundo-premio-de-loteria-nacional-del-sorteo-de-loteria-nacional-del-16-de-marzo-de-2019"
+        },
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 16 de marzo de 2019",
+          "urlContenido": null
+        }
+      ],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Dossier de Prensa del sorteo del 16/03/2019",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/Dossier de prensa/DOSSIER_ PRENSA_LOTERIA NACIONAL_SABADO_16_3_19.pdf"
+        },
+        {
+          "tituloRelacion": "20190316 Listado de premios",
+          "tituloContenido": "Listado de premios del sorteo del 16/03/2019",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2019.S022.pdf"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Nota de prensa sorteo 22 del 16/03/2019 Lotería Nacional",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/notas de prensa/PREMIOS_MAYORES_DEL_SORTEO_DE_LOTERIA_NACIONAL_SABADO_16_3_19.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/capillas/s22_2019_movil.png"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/capillas/s22_2019_pc.png"
+        }
+      ],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 6
+  },
+  {
+    "fecha_sorteo": "2019-03-14 21:00:00",
+    "dia_semana": "jueves",
+    "id_sorteo": "1048409021",
+    "game_id": "LNAC",
+    "anyo": "2019",
+    "nombre": "SORTEO DEL JUEVES",
+    "lugar": "Madrid",
+    "num_sorteo": "21",
+    "premio_bote": "0",
+    "cdc": "10484",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": 300000,
+    "apertura": "2019-03-01 00:00:00",
+    "cierre": "2019-03-14 20:30:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "J",
+    "tipoSorteoGeneral": "J",
+    "premioEspecial": {
+      "numero": null,
+      "fraccion": null,
+      "serie": null,
+      "premio": null,
+      "literalPremio": null,
+      "fila": null,
+      "orden": null,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "37680",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 1,
+      "prize": 3000000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "81168",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 600000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "0",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 14,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "1",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 14,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "5",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 14,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2019.S021.pdf",
+    "modelDraw": 88,
+    "escrutinio": [
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "30000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 37680
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 81168
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "3",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 13,
+        "ordenCategoria": 14,
+        "resultado": 1
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 14 de marzo de 2019",
+          "urlContenido": "/loteria-nacional/resultados/loteria-nacional-premios-mayores-del-sorteo-del-14-de-marzo-de-2019"
+        },
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 14 de marzo de 2019",
+          "urlContenido": null
+        },
+        {
+          "tituloRelacion": "Premio Automatico 2",
+          "tituloContenido": "Segundo Premio de Lotería Nacional del SORTEO DEL JUEVES del 14 de marzo de 2019",
+          "urlContenido": "/premios/segundo-premio-de-loteria-nacional-del-sorteo-del-jueves-del-14-de-marzo-de-2019"
+        },
+        {
+          "tituloRelacion": "Premio Automatico",
+          "tituloContenido": "Primer Premio de Lotería Nacional del SORTEO DEL JUEVES del 14 de marzo de 2019",
+          "urlContenido": "/premios/primer-premio-de-loteria-nacional-del-sorteo-del-jueves-del-14-de-marzo-de-2019"
+        }
+      ],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Nota de prensa sorteo 21 del 14/03/2019 Lotería Nacional",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/notas de prensa/PREMIOS_MAYORES_DEL_SORTEO_DE_LOTERIA_NACIONAL_JUEVES_14_3_19.pdf"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Dossier de Prensa del sorteo del 14/03/2019",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/Dossier de prensa/DOSSIER_PRENSA__LOTERIA NACIONAL_JUEVES_14_3_-19.pdf"
+        },
+        {
+          "tituloRelacion": "20190314 Listado de premios",
+          "tituloContenido": "Listado de premios del sorteo del 14/03/2019",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2019.S021.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/capillas/s21_2019_movil.png"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/capillas/s21_2019_pc.png"
+        }
+      ],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 3
+  },
+  {
+    "fecha_sorteo": "2025-12-22 08:30:00",
+    "dia_semana": "lunes",
+    "id_sorteo": "1295909102",
+    "game_id": "LNAC",
+    "anyo": "2025",
+    "nombre": "SORTEO EXTRAORDINARIO DE NAVIDAD",
+    "lugar": "el Teatro Real de Madrid",
+    "num_sorteo": "102",
+    "premio_bote": "0",
+    "cdc": "12959",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": 4000000,
+    "apertura": "2025-07-04 00:00:00",
+    "cierre": "2025-12-21 23:45:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "N",
+    "tipoSorteoGeneral": "T",
+    "premioEspecial": {
+      "numero": null,
+      "fraccion": null,
+      "serie": null,
+      "premio": null,
+      "literalPremio": null,
+      "fila": null,
+      "orden": null,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "79432",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 1,
+      "prize": 40000000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "70048",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 2,
+      "fila": 2,
+      "orden": 2,
+      "prize": 12500000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [
+      {
+        "decimo": "90693",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "ordenFila": 2,
+        "fila": 2,
+        "orden": 2,
+        "prize": 5000000,
+        "prizeType": "Y",
+        "showFolded": false
+      }
+    ],
+    "cuartosPremios": [
+      {
+        "decimo": "25508",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "4&#x00ba; Premio",
+          "ca": "4t Premi",
+          "en": "4&#x00ba; Prize",
+          "eu": "4&#x00ba; Saria",
+          "gl": "4&#x00ba; Premio",
+          "va": "4t Premi"
+        },
+        "ordenFila": 3,
+        "fila": 3,
+        "orden": 3,
+        "prize": 2000000,
+        "prizeType": "H",
+        "showFolded": false
+      },
+      {
+        "decimo": "78477",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "4&#x00ba; Premio",
+          "ca": "4t Premi",
+          "en": "4&#x00ba; Prize",
+          "eu": "4&#x00ba; Saria",
+          "gl": "4&#x00ba; Premio",
+          "va": "4t Premi"
+        },
+        "ordenFila": 3,
+        "fila": 3,
+        "orden": 3,
+        "prize": 2000000,
+        "prizeType": "H",
+        "showFolded": false
+      }
+    ],
+    "quintosPremios": [
+      {
+        "decimo": "23112",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 602000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "25412",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 602000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "18669",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "41716",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "60649",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "61366",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "77715",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      },
+      {
+        "decimo": "94273",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "ordenFila": 4,
+        "fila": 4,
+        "orden": 4,
+        "prize": 600000,
+        "prizeType": "I",
+        "showFolded": false
+      }
+    ],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "2",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 16,
+        "fila": 16,
+        "orden": 16,
+        "prize": 2000,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2025.S102.pdf",
+    "modelDraw": 108,
+    "escrutinio": [
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "400000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 79432
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "125000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 2,
+        "ordenCategoria": 2,
+        "resultado": 70048
+      },
+      {
+        "tipo": "3&#x00ba; Premio",
+        "categoria": 4,
+        "premio": "50000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "categoriaLinea": 2,
+        "ordenCategoria": 2,
+        "resultado": 90693
+      },
+      {
+        "tipo": "4&#x00ba; Premio",
+        "categoria": 5,
+        "premio": "20000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "4&#x00ba; Premio",
+          "ca": "4t Premi",
+          "en": "4&#x00ba; Prize",
+          "eu": "4&#x00ba; Saria",
+          "gl": "4&#x00ba; Premio",
+          "va": "4t Premi"
+        },
+        "categoriaLinea": 3,
+        "ordenCategoria": 3,
+        "resultado": 25508
+      },
+      {
+        "tipo": "4&#x00ba; Premio",
+        "categoria": 5,
+        "premio": "20000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "4&#x00ba; Premio",
+          "ca": "4t Premi",
+          "en": "4&#x00ba; Prize",
+          "eu": "4&#x00ba; Saria",
+          "gl": "4&#x00ba; Premio",
+          "va": "4t Premi"
+        },
+        "categoriaLinea": 3,
+        "ordenCategoria": 3,
+        "resultado": 78477
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6020",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 23112
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6020",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 25412
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 18669
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 41716
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 60649
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 61366
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 77715
+      },
+      {
+        "tipo": "5&#x00ba; Premio",
+        "categoria": 6,
+        "premio": "6000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "5&#x00ba; Premio",
+          "ca": "5è Premi",
+          "en": "5&#x00ba; Prize",
+          "eu": "5&#x00ba; Saria",
+          "gl": "5&#x00ba; Premio",
+          "va": "5è Premi"
+        },
+        "categoriaLinea": 4,
+        "ordenCategoria": 4,
+        "resultado": 94273
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "20",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 16,
+        "ordenCategoria": 16,
+        "resultado": 2
+      }
+    ],
+    "mostrarVentas": true,
+    "mostrarConsignacion": true,
+    "contenidosRelacionados": {
+      "noticias": [
+        {
+          "tituloRelacion": "Premio Automatico 4",
+          "tituloContenido": "Cuarto Premio de Lotería Nacional del SORTEO EXTRAORDINARIO DE NAVIDAD del 22 de diciembre de 2025",
+          "urlContenido": "/premios/cuarto-premio-de-loteria-nacional-del-sorteo-extraordinario-de-navidad-del-22-de-diciembre-de-2025"
+        },
+        {
+          "tituloRelacion": "Premio Automatico 2",
+          "tituloContenido": "Segundo Premio de Lotería Nacional del SORTEO EXTRAORDINARIO DE NAVIDAD del 22 de diciembre de 2025",
+          "urlContenido": "/premios/segundo-premio-de-loteria-nacional-del-sorteo-extraordinario-de-navidad-del-22-de-diciembre-de-2025"
+        },
+        {
+          "tituloRelacion": "Premio Automatico 5",
+          "tituloContenido": "Quinto Premio de Lotería Nacional del SORTEO EXTRAORDINARIO DE NAVIDAD del 22 de diciembre de 2025",
+          "urlContenido": "/premios/quinto-premio-de-loteria-nacional-del-sorteo-extraordinario-de-navidad-del-22-de-diciembre-de-2025"
+        },
+        {
+          "tituloRelacion": "Premio Automatico",
+          "tituloContenido": "Primer Premio de Lotería Nacional del SORTEO EXTRAORDINARIO DE NAVIDAD del 22 de diciembre de 2025",
+          "urlContenido": "/premios/primer-premio-de-loteria-nacional-del-sorteo-extraordinario-de-navidad-del-22-de-diciembre-de-2025"
+        },
+        {
+          "tituloRelacion": "Premio Automatico 3",
+          "tituloContenido": "Tercer Premio de Lotería Nacional del SORTEO EXTRAORDINARIO DE NAVIDAD del 22 de diciembre de 2025",
+          "urlContenido": "/premios/tercer-premio-de-loteria-nacional-del-sorteo-extraordinario-de-navidad-del-22-de-diciembre-de-2025"
+        },
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 22 de diciembre de 2025",
+          "urlContenido": "/loteria-nacional/resultados/loteria-nacional-premios-mayores-del-sorteo-del-22-de-diciembre-de-2025"
+        }
+      ],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Dossier de Prensa del sorteo 102 del 22/12/2025",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/Dossier de prensa/DOSSIER NAVIDAD 2025.pdf"
+        },
+        {
+          "tituloRelacion": "20251222 Listado de premios",
+          "tituloContenido": "Listado de premios del sorteo del 22/12/2025",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2025.S102.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/estaticos/capillas/s102_2025_pc.jpg"
+        }
+      ],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 20
+  },
+  {
+    "fecha_sorteo": "2024-11-09 13:00:00",
+    "dia_semana": "sábado",
+    "id_sorteo": "1255109090",
+    "game_id": "LNAC",
+    "anyo": "2024",
+    "nombre": "SORTEO EXTRAORDINARIO      DE LA CULTURA",
+    "lugar": "Madrid Sede Central",
+    "num_sorteo": "90",
+    "premio_bote": "0",
+    "cdc": "12551",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": 1500000,
+    "apertura": "2024-10-13 00:00:00",
+    "cierre": "2024-11-09 12:30:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "S",
+    "tipoSorteoGeneral": "S",
+    "premioEspecial": {
+      "numero": null,
+      "fraccion": null,
+      "serie": null,
+      "premio": null,
+      "literalPremio": null,
+      "fila": null,
+      "orden": null,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "47351",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 1,
+      "prize": 15003000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "32923",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 3000000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [
+      {
+        "decimo": "74374",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "ordenFila": 1,
+        "fila": 1,
+        "orden": 3,
+        "prize": 1500000,
+        "prizeType": "Y",
+        "showFolded": false
+      }
+    ],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [
+      {
+        "decimo": "48151",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 757500,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "68451",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 757500,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "16965",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 753000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "21677",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 751500,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "00425",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "00425",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "01232",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "01232",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "11273",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "11273",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "16965",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "21677",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "25225",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "25225",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "48151",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "53950",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "53950",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "68451",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "78745",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "78745",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "85324",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "85324",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "92720",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      },
+      {
+        "decimo": "92720",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 750000,
+        "prizeType": "P5",
+        "showFolded": false
+      }
+    ],
+    "extraccionesDeCuatroCifras": [
+      {
+        "decimo": "3255",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 37500,
+        "prizeType": "P4",
+        "showFolded": false
+      },
+      {
+        "decimo": "5218",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 37500,
+        "prizeType": "P4",
+        "showFolded": false
+      },
+      {
+        "decimo": "8014",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 37500,
+        "prizeType": "P4",
+        "showFolded": false
+      },
+      {
+        "decimo": "9322",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 37500,
+        "prizeType": "P4",
+        "showFolded": false
+      }
+    ],
+    "extraccionesDeTresCifras": [
+      {
+        "decimo": "079",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "162",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "193",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "440",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "500",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "524",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "534",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "580",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "626",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "711",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      },
+      {
+        "decimo": "748",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 7500,
+        "prizeType": "P3",
+        "showFolded": false
+      }
+    ],
+    "extraccionesDeDosCifras": [
+      {
+        "decimo": "51",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 3000,
+        "prizeType": "P2",
+        "showFolded": false
+      },
+      {
+        "decimo": "53",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 3000,
+        "prizeType": "P2",
+        "showFolded": false
+      },
+      {
+        "decimo": "65",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 3000,
+        "prizeType": "P2",
+        "showFolded": false
+      },
+      {
+        "decimo": "79",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 3000,
+        "prizeType": "P2",
+        "showFolded": false
+      },
+      {
+        "decimo": "90",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": null,
+        "ordenFila": 0,
+        "fila": 0,
+        "orden": 0,
+        "prize": 3000,
+        "prizeType": "P2",
+        "showFolded": false
+      }
+    ],
+    "reintegros": [
+      {
+        "decimo": "1",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 16,
+        "fila": 16,
+        "orden": 17,
+        "prize": 1500,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "7",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 16,
+        "fila": 16,
+        "orden": 17,
+        "prize": 1500,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "8",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 16,
+        "fila": 16,
+        "orden": 17,
+        "prize": 1500,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2024.S090.pdf",
+    "modelDraw": 112,
+    "escrutinio": [
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "150030",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 47351
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "30000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 32923
+      },
+      {
+        "tipo": "3&#x00ba; Premio",
+        "categoria": 4,
+        "premio": "15000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 3,
+        "resultado": 74374
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "15",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 16,
+        "ordenCategoria": 17,
+        "resultado": 1
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [
+        {
+          "tituloRelacion": "Premio Automatico",
+          "tituloContenido": "Primer Premio de Lotería Nacional del SORTEO EXTRAORDINARIO      DE LA CULTURA del 09 de noviembre de 2024",
+          "urlContenido": "/premios/primer-premio-de-loteria-nacional-del-sorteo-extraordinario-de-la-cultura-del-09-de-noviembre-de-2024"
+        },
+        {
+          "tituloRelacion": "Premio Automatico 2",
+          "tituloContenido": "Segundo Premio de Lotería Nacional del SORTEO EXTRAORDINARIO      DE LA CULTURA del 09 de noviembre de 2024",
+          "urlContenido": "/premios/segundo-premio-de-loteria-nacional-del-sorteo-extraordinario-de-la-cultura-del-09-de-noviembre-de-2024"
+        },
+        {
+          "tituloRelacion": "Resultado Automatico",
+          "tituloContenido": "Lotería Nacional: premios mayores del sorteo del 09 de noviembre de 2024",
+          "urlContenido": "/loteria-nacional/resultados/loteria-nacional-premios-mayores-del-sorteo-del-09-de-noviembre-de-2024"
+        }
+      ],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [
+        {
+          "tituloRelacion": "20241109 Listado de premios",
+          "tituloContenido": "Listado de premios del sorteo del 09/11/2024",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/listas de premios/SM_LISTAOFICIAL.A2024.S090.pdf"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Nota de prensa sorteo 90 del 09/11/2024 Lotería Nacional",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/notas de prensa/PREMIOS_MAYORES_DEL_SORTEO_DE_LOTERIA_NACIONAL_SÁBADO_09_11_24.pdf"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": "Dossier de Prensa del sorteo 90 del 09/11/2024",
+          "urlContenido": "/f/loterias/documentos/Lotería Nacional/Dossier de prensa/DOSSIER PRENSA SORTEO LOTERIA NACIONAL SABADO 9 DE NOVIEMBRE DE 2024.pdf"
+        }
+      ],
+      "imagenes": [
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/estaticos/capillas/s90_2024_movil.jpg"
+        },
+        {
+          "tituloRelacion": null,
+          "tituloContenido": null,
+          "urlContenido": "/loterias/imagenes/estaticos/capillas/s90_2024_pc.jpg"
+        }
+      ],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 15
+  },
+  {
+    "fecha_sorteo": "2011-12-29 21:00:00",
+    "dia_semana": "jueves",
+    "id_sorteo": "785209103",
+    "game_id": "LNAC",
+    "anyo": "2011",
+    "nombre": "SORTEO DEL JUEVES",
+    "lugar": "Madrid",
+    "num_sorteo": "103",
+    "premio_bote": "0",
+    "cdc": "7852",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": null,
+    "apertura": "2011-12-29 00:00:00",
+    "cierre": "2011-12-29 00:00:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "U",
+    "tipoSorteoGeneral": "U",
+    "premioEspecial": {
+      "numero": "83266",
+      "fraccion": 8,
+      "serie": 2,
+      "premio": 120000000,
+      "literalPremio": {
+        "es": "Premio Especial",
+        "ca": "Premi Especial",
+        "en": "Special Prize",
+        "eu": "Sari Berezia",
+        "gl": "Premio Especial",
+        "va": "Premi Especial"
+      },
+      "fila": 1,
+      "orden": 1,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "83266",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 3000000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "43882",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 3,
+      "prize": 600600,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "4",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 15,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "6",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 15,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "9",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 13,
+        "fila": 13,
+        "orden": 15,
+        "prize": 300,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": null,
+    "modelDraw": 49,
+    "escrutinio": [
+      {
+        "tipo": "Premio Especial",
+        "categoria": 1,
+        "premio": "1200000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "Premio Especial",
+          "ca": "Premi Especial",
+          "en": "Special Prize",
+          "eu": "Sari Berezia",
+          "gl": "Premio Especial",
+          "va": "Premi Especial"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 83266
+      },
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "30000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 83266
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "6006",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 3,
+        "resultado": 43882
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "3",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 13,
+        "ordenCategoria": 15,
+        "resultado": 4
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [],
+      "imagenes": [],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 3
+  },
+  {
+    "fecha_sorteo": "2008-10-04 13:00:00",
+    "dia_semana": "sábado",
+    "id_sorteo": "667109080",
+    "game_id": "LNAC",
+    "anyo": "2008",
+    "nombre": null,
+    "lugar": "Madrid",
+    "num_sorteo": "80",
+    "premio_bote": "0",
+    "cdc": "6671",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": null,
+    "apertura": null,
+    "cierre": null,
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "S",
+    "tipoSorteoGeneral": "S",
+    "premioEspecial": {
+      "numero": "79987",
+      "fraccion": 6,
+      "serie": 10,
+      "premio": 500000000,
+      "literalPremio": {
+        "es": "Premio Especial",
+        "ca": "Premi Especial",
+        "en": "Special Prize",
+        "eu": "Sari Berezia",
+        "gl": "Premio Especial",
+        "va": "Premi Especial"
+      },
+      "fila": 1,
+      "orden": 1,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "79987",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 10000000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "51160",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 3,
+      "prize": 2500000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [
+      {
+        "decimo": "70194",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "ordenFila": 1,
+        "fila": 1,
+        "orden": 4,
+        "prize": 500000,
+        "prizeType": "Y",
+        "showFolded": false
+      }
+    ],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "2",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "6",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "7",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": null,
+    "modelDraw": 33,
+    "escrutinio": [
+      {
+        "tipo": "Premio Especial",
+        "categoria": 1,
+        "premio": "5000000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "Premio Especial",
+          "ca": "Premi Especial",
+          "en": "Special Prize",
+          "eu": "Sari Berezia",
+          "gl": "Premio Especial",
+          "va": "Premi Especial"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 79987
+      },
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "100000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 79987
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "25000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 3,
+        "resultado": 51160
+      },
+      {
+        "tipo": "3&#x00ba; Premio",
+        "categoria": 4,
+        "premio": "5000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 4,
+        "resultado": 70194
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "12",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 14,
+        "ordenCategoria": 16,
+        "resultado": 7
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [],
+      "imagenes": [],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 12
+  },
+  {
+    "fecha_sorteo": "2012-05-05 13:00:00",
+    "dia_semana": "sábado",
+    "id_sorteo": "798009036",
+    "game_id": "LNAC",
+    "anyo": "2012",
+    "nombre": "  SORTEO  ESPECIAL\r\nCRUZ ROJA ",
+    "lugar": "Cáceres",
+    "num_sorteo": "36",
+    "premio_bote": "0",
+    "cdc": "7980",
+    "apuestas": "0",
+    "recaudacion": "0",
+    "premio_especial": null,
+    "primer_premio": null,
+    "apertura": "2012-05-05 00:00:00",
+    "cierre": "2012-05-05 00:00:00",
+    "estado": "cerrado",
+    "premios": "0",
+    "fondo_bote": "0",
+    "tipoSorteo": "U",
+    "tipoSorteoGeneral": "U",
+    "premioEspecial": {
+      "numero": "11832",
+      "fraccion": 5,
+      "serie": 9,
+      "premio": 500000000,
+      "literalPremio": {
+        "es": "Premio Especial",
+        "ca": "Premi Especial",
+        "en": "Special Prize",
+        "eu": "Sari Berezia",
+        "gl": "Premio Especial",
+        "va": "Premi Especial"
+      },
+      "fila": 1,
+      "orden": 1,
+      "showFolded": false
+    },
+    "primerPremio": {
+      "decimo": "11832",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "1er Premio",
+        "ca": "1r Premi",
+        "en": "1st Prize",
+        "eu": "1&#x00ba; Saria",
+        "gl": "1&#x00ba; Premio",
+        "va": "1r Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 2,
+      "prize": 10000000,
+      "prizeType": "G",
+      "showFolded": false
+    },
+    "segundoPremio": {
+      "decimo": "55340",
+      "tabla": null,
+      "alambre": null,
+      "literalPremio": {
+        "es": "2&#x00ba; Premio",
+        "ca": "2n Premi",
+        "en": "2&#x00ba; Prize",
+        "eu": "2&#x00ba; Saria",
+        "gl": "2&#x00ba; Premio",
+        "va": "2n Premi"
+      },
+      "ordenFila": 1,
+      "fila": 1,
+      "orden": 3,
+      "prize": 2500000,
+      "prizeType": "Z",
+      "showFolded": false
+    },
+    "tercerosPremios": [
+      {
+        "decimo": "17632",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "ordenFila": 1,
+        "fila": 1,
+        "orden": 4,
+        "prize": 507200,
+        "prizeType": "Y",
+        "showFolded": false
+      }
+    ],
+    "cuartosPremios": [],
+    "quintosPremios": [],
+    "extraccionesDeCincoCifras": [],
+    "extraccionesDeCuatroCifras": [],
+    "extraccionesDeTresCifras": [],
+    "extraccionesDeDosCifras": [],
+    "reintegros": [
+      {
+        "decimo": "2",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "4",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      },
+      {
+        "decimo": "8",
+        "tabla": null,
+        "alambre": null,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "ordenFila": 14,
+        "fila": 14,
+        "orden": 16,
+        "prize": 1200,
+        "prizeType": "1",
+        "showFolded": false
+      }
+    ],
+    "urlListadoOficial": null,
+    "modelDraw": 33,
+    "escrutinio": [
+      {
+        "tipo": "Premio Especial",
+        "categoria": 1,
+        "premio": "5000000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "Premio Especial",
+          "ca": "Premi Especial",
+          "en": "Special Prize",
+          "eu": "Sari Berezia",
+          "gl": "Premio Especial",
+          "va": "Premi Especial"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 1,
+        "resultado": 11832
+      },
+      {
+        "tipo": "1er Premio",
+        "categoria": 2,
+        "premio": "100000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "1er Premio",
+          "ca": "1r Premi",
+          "en": "1st Prize",
+          "eu": "1&#x00ba; Saria",
+          "gl": "1&#x00ba; Premio",
+          "va": "1r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 2,
+        "resultado": 11832
+      },
+      {
+        "tipo": "2&#x00ba; Premio",
+        "categoria": 3,
+        "premio": "25000",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "2&#x00ba; Premio",
+          "ca": "2n Premi",
+          "en": "2&#x00ba; Prize",
+          "eu": "2&#x00ba; Saria",
+          "gl": "2&#x00ba; Premio",
+          "va": "2n Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 3,
+        "resultado": 55340
+      },
+      {
+        "tipo": "3&#x00ba; Premio",
+        "categoria": 4,
+        "premio": "5072",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": true,
+        "literalPremio": {
+          "es": "3&#x00ba; Premio",
+          "ca": "3r Premi",
+          "en": "3&#x00ba; Prize",
+          "eu": "3&#x00ba; Saria",
+          "gl": "3&#x00ba; Premio",
+          "va": "3r Premi"
+        },
+        "categoriaLinea": 1,
+        "ordenCategoria": 4,
+        "resultado": 17632
+      },
+      {
+        "tipo": "Reintegro",
+        "categoria": 7,
+        "premio": "12",
+        "ganadores": 1,
+        "mostrarCategoria": true,
+        "esPremioMayor": false,
+        "literalPremio": {
+          "es": "Reintegro",
+          "ca": "Reintegre",
+          "en": "Refund",
+          "eu": "Itzultzea",
+          "gl": "Reintegro",
+          "va": "Reintegrament"
+        },
+        "categoriaLinea": 14,
+        "ordenCategoria": 16,
+        "resultado": 4
+      }
+    ],
+    "mostrarVentas": false,
+    "mostrarConsignacion": false,
+    "contenidosRelacionados": {
+      "noticias": [],
+      "enlaces": [],
+      "puntosDeVenta": [],
+      "documentos": [],
+      "imagenes": [],
+      "preguntasFrecuentes": [],
+      "paginasLibres": []
+    },
+    "precioDecimo": 12
+  }
+]

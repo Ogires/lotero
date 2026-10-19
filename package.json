@@ -6,7 +6,8 @@
     "node": ">=22"
   },
   "workspaces": [
-    "api"
+    "api",
+    "scripts"
   ],
   "scripts": {
     "lint": "biome ci .",

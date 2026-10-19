@@ -7,6 +7,7 @@ export type Juego =
   | "CUPON_DIARIO"
   | "CUPONAZO"
   | "SUELDAZO"
+  | "CUPON_EXTRA"
   | "LN_JUEVES"
   | "LN_SABADO"
   | "LN_EXTRAORDINARIO";
@@ -18,7 +19,6 @@ export type TipoPremio =
   | "TERCERO"
   | "CUARTO"
   | "QUINTO"
-  | "ESPECIAL"
   | "MENOR";
 
 export type Fuente = "once-historico" | "once-feed" | "lnac-api" | "volcado-2019";
@@ -33,7 +33,7 @@ export interface Premio {
   /** Serie del cupón; cadena vacía si no aplica. */
   serie: string;
   tipo: TipoPremio;
-  /** Nombre del sorteo, solo para extraordinarios de la Lotería Nacional. */
+  /** Nombre del sorteo, solo para los extraordinarios (Cupón Extra y Lotería Nacional). */
   sorteo: string | null;
   fuente: Fuente;
 }
@@ -42,6 +42,7 @@ export const NOMBRE_JUEGO: Record<Juego, string> = {
   CUPON_DIARIO: "Cupón Diario",
   CUPONAZO: "Cuponazo",
   SUELDAZO: "Sueldazo Fin de Semana",
+  CUPON_EXTRA: "Cupón Extra",
   LN_JUEVES: "Lotería Nacional (jueves)",
   LN_SABADO: "Lotería Nacional (sábado)",
   LN_EXTRAORDINARIO: "Lotería Nacional (extraordinario)",
@@ -54,7 +55,6 @@ export const NOMBRE_TIPO: Record<TipoPremio, string> = {
   TERCERO: "3er premio",
   CUARTO: "4º premio",
   QUINTO: "5º premio",
-  ESPECIAL: "Premio especial",
   MENOR: "Premio menor",
 };
 
