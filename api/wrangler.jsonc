@@ -8,8 +8,7 @@
     {
       "binding": "DB",
       "database_name": "lotero",
-      // Marcador para desarrollo local: se sustituye por el ID real al crear la base (fase 3).
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "d9af300e-4c0c-4393-82d0-a7357cc38a05",
       "migrations_dir": "migrations"
     }
   ],
