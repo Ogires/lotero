@@ -1,0 +1,38 @@
+# Comprueba cada semana que las fuentes reales (juegosonce.es y SELAE) mantienen el formato
+# esperado. Si falla, abre una issue (o comenta en la que ya esté abierta).
+name: Contrato con las fuentes
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  contrato:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run test:live
+
+      - name: Avisar del fallo
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITULO: "Contrato con las fuentes roto"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          abierta=$(gh issue list --state open --search "in:title \"$TITULO\"" --json number --jq '.[0].number')
+          if [ -n "$abierta" ]; then
+            gh issue comment "$abierta" --body "Sigue fallando: $RUN_URL"
+          else
+            gh issue create --title "$TITULO" --body "Los tests \`live\` han fallado: $RUN_URL"
+          fi

@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { extraerCsrf, parsearMesOnce } from "../../lib/once-historico";
 
 function fixture(nombre: string): string {
-  return readFileSync(new URL(`../fixtures/${nombre}`, import.meta.url), "utf8");
+  return readFileSync(new URL(`../../../api/test/fixtures/${nombre}`, import.meta.url), "utf8");
 }
 
 function contarPorJuego(juegos: string[]): Record<string, number> {

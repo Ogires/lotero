@@ -1,4 +1,5 @@
 import { consultarNumero } from "./consulta";
+import { actualizar } from "./cron";
 import { cabecerasCors, conCabeceras, error, json, METODOS_PERMITIDOS } from "./http";
 import { numeroCincoCifras } from "./tipos";
 
@@ -54,5 +55,17 @@ export default {
       respuesta = error(500, "error_interno", "Error interno del servidor.");
     }
     return conCabeceras(respuesta, cabecerasCors(request, env.ORIGENES_PERMITIDOS));
+  },
+
+  async scheduled(controller, env): Promise<void> {
+    const resultados = await actualizar(env.DB, new Date(controller.scheduledTime));
+    console.log("Actualización", JSON.stringify(resultados));
+    // Lanzar marca la ejecución como fallida en el panel de Cloudflare.
+    const fallidas = resultados.filter((r) => r.filasNuevas === null);
+    if (fallidas.length > 0) {
+      throw new Error(
+        `Tareas fallidas: ${fallidas.map((r) => `${r.tarea} (${r.error})`).join(", ")}`,
+      );
+    }
   },
 } satisfies ExportedHandler<Env>;

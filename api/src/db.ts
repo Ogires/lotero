@@ -60,3 +60,21 @@ export async function buscarPremiosPorNumero(
     .run<PremioGuardado>();
   return results;
 }
+
+export interface Ejecucion {
+  inicio: string;
+  fin: string;
+  tarea: string;
+  filasNuevas: number | null;
+  error: string | null;
+}
+
+export async function registrarEjecucion(db: D1Database, e: Ejecucion): Promise<void> {
+  await db
+    .prepare(
+      `INSERT INTO ejecuciones (inicio, fin, tarea, filas_nuevas, error)
+       VALUES (?1, ?2, ?3, ?4, ?5)`,
+    )
+    .bind(e.inicio, e.fin, e.tarea, e.filasNuevas, e.error)
+    .run();
+}

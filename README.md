@@ -6,7 +6,7 @@ No está afiliada a la ONCE ni a Loterías y Apuestas del Estado.
 
 ## Estructura
 
-> Relanzamiento en curso: `api/` y `scripts/` todavía no existen, y `extension/` contiene aún la versión de 2019 a la espera de migrarla a Manifest V3.
+> Relanzamiento en curso: `extension/` contiene aún la versión de 2019 a la espera de migrarla a Manifest V3.
 
 | Carpeta | Contenido |
 |---|---|
@@ -51,5 +51,22 @@ for f in once-historico lnac volcado-2019; do
   npx wrangler d1 execute lotero --local --file ../scripts/salida/$f.sql
 done
 ```
+
+### Actualización diaria
+
+El Worker se ejecuta a las 22:00 y a las 07:00 UTC (`triggers` en `api/wrangler.jsonc`) y lanza tres tareas independientes, registradas en la tabla `ejecuciones`:
+
+- `once-feed`: último sorteo de cada cupón, con los adicionales del Sueldazo;
+- `once-historico`: histórico del mes en curso (y del anterior los tres primeros días), para recuperar sorteos perdidos;
+- `lnac`: Lotería Nacional de los últimos diez días.
+
+```sh
+cd api
+npx wrangler dev --test-scheduled
+curl "http://localhost:8787/__scheduled?cron=0+22+*+*+*"
+npx wrangler d1 execute lotero --local --command "SELECT * FROM ejecuciones ORDER BY id DESC LIMIT 6"
+```
+
+El workflow `contrato.yml` ejecuta cada lunes los tests `live` y abre una issue si alguna fuente cambia.
 
 La versión publicada en 2019 (Manifest V2) se conserva en el historial de git (commit `b0d8ccf`).

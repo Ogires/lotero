@@ -13,6 +13,10 @@
       "migrations_dir": "migrations"
     }
   ],
+  "triggers": {
+    // 22:00 UTC, tras los sorteos de las 21:00 en España; 07:00 UTC, recuperación.
+    "crons": ["0 22 * * *", "0 7 * * *"]
+  },
   "vars": {
     // Orígenes autorizados por CORS, separados por comas.
     "ORIGENES_PERMITIDOS": "https://www.juegosonce.es"

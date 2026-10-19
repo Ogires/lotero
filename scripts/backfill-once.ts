@@ -2,13 +2,14 @@
 // Uso: npm run backfill:once -w scripts -- [--desde 1996-01] [--hasta AAAA-MM] [--sin-cache]
 
 import { parseArgs } from "node:util";
+import { formularioMes, URL_HISTORICO_ONCE } from "../api/src/fuentes/once-historico";
 import type { Premio } from "../api/src/tipos";
 import { extraerCsrf, parsearMesOnce } from "./lib/once-historico";
 import { conCache, esperar, guardarSalida, SesionHttp, USER_AGENT_BOT } from "./lib/red";
 import { resumenPorAnio } from "./lib/resumen";
 import { sqlInsertarPremios } from "./lib/sql";
 
-const URL_HISTORICO = "https://www.juegosonce.es/historico-resultados-cupones-once";
+const URL_HISTORICO = URL_HISTORICO_ONCE;
 const PAUSA_MS = 1500;
 
 const hoy = new Date();
@@ -42,14 +43,9 @@ async function nuevaSesion(): Promise<void> {
 
 async function descargarMes(anio: number, mes: number): Promise<string> {
   if (!csrf) await nuevaSesion();
-  const cuerpo = new URLSearchParams({
-    mes: String(mes).padStart(2, "0"),
-    anio: String(anio),
-    "csrf-param": csrf ?? "",
-  });
   const html = await sesion.texto(URL_HISTORICO, {
     method: "POST",
-    body: cuerpo,
+    body: formularioMes(anio, mes, csrf ?? ""),
     headers: { Referer: URL_HISTORICO, "Content-Type": "application/x-www-form-urlencoded" },
   });
   csrf = extraerCsrf(html) ?? csrf;

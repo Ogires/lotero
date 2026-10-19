@@ -1,5 +1,6 @@
 // Adaptador de la API de Loterías y Apuestas del Estado (SELAE) para la Lotería Nacional.
-// La API está detrás de Akamai: sin cabeceras de navegador responde 403.
+// La API está detrás de Akamai: sin cabeceras de navegador responde 403. En particular exige
+// `Accept-Encoding`, que Node añade solo pero el `fetch` de Workers no.
 // Cuando no hay sorteos devuelve un texto en lugar de una lista.
 
 import { type Juego, numeroCincoCifras, type Premio, type TipoPremio } from "../tipos";
@@ -11,6 +12,7 @@ export const CABECERAS_LNAC: Readonly<Record<string, string>> = {
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
   Accept: "application/json, text/plain, */*",
   "Accept-Language": "es-ES,es;q=0.9",
+  "Accept-Encoding": "gzip, deflate, br",
   Referer: "https://www.loteriasyapuestas.es/es/resultados/loteria-nacional",
   "Sec-Fetch-Mode": "cors",
   "Sec-Fetch-Site": "same-origin",

@@ -8,7 +8,7 @@ export const DIR_SCRIPTS = join(dirname(fileURLToPath(import.meta.url)), "..");
 export const DIR_CACHE = join(DIR_SCRIPTS, "cache");
 export const DIR_SALIDA = join(DIR_SCRIPTS, "salida");
 
-export const USER_AGENT_BOT = "LoteroBot/1.0 (+https://github.com/Ogires/lotero)";
+export { USER_AGENT_BOT } from "../../api/src/fuentes/red";
 
 export function esperar(ms: number): Promise<void> {
   return new Promise((resolver) => setTimeout(resolver, ms));
