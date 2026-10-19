@@ -9,7 +9,7 @@ import type { RespuestaConsulta } from "../../../api/src/tipos";
 const DIST = join(import.meta.dirname, "..", "..", "dist");
 const FIXTURES = join(import.meta.dirname, "..", "fixtures");
 const ORIGEN = "https://www.juegosonce.es";
-const API = "https://lotero-api.lotero-api.workers.dev/api/resultados/";
+const API = "https://lotero-api.webninja.workers.dev/api/resultados/";
 
 const PREMIADO: RespuestaConsulta = {
   numero: "16056",

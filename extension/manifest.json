@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Lotero",
+  "name": "Lotero: ¿ya ha salido premiado este número?",
+  "short_name": "Lotero",
   "version": "1.0.0",
   "description": "Comprueba en juegosonce.es si el número del cupón ya ha salido premiado en la ONCE o en la Lotería Nacional. No oficial.",
   "icons": {

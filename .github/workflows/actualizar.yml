@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run actualizar -w scripts
         env:
-          LOTERO_API_URL: https://lotero-api.lotero-api.workers.dev
+          LOTERO_API_URL: https://lotero-api.webninja.workers.dev
           LOTERO_ADMIN_TOKEN: ${{ secrets.LOTERO_ADMIN_TOKEN }}
 
       - name: Avisar del fallo

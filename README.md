@@ -88,3 +88,9 @@ cd api && npx wrangler d1 execute lotero --remote --command "SELECT * FROM ejecu
 El workflow `contrato.yml` ejecuta cada lunes los tests `live` y abre una issue si alguna fuente cambia.
 
 La versión publicada en 2019 (Manifest V2) se conserva en el historial de git (commit `b0d8ccf`).
+
+## Licencia
+
+El código se publica bajo la [licencia MIT](LICENSE).
+
+Las páginas de juegosonce.es guardadas en `*/test/fixtures/` (solo para los tests) y los resultados de los sorteos pertenecen a sus titulares (ONCE y Loterías y Apuestas del Estado) y no están cubiertos por esa licencia.

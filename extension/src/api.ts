@@ -3,7 +3,7 @@
 
 import type { RespuestaConsulta } from "../../api/src/tipos";
 
-export const URL_API = "https://lotero-api.lotero-api.workers.dev";
+export const URL_API = "https://lotero-api.webninja.workers.dev";
 
 export type Pedir = (url: string) => Promise<Response>;
 export type Consultar = (numero: string) => Promise<RespuestaConsulta>;
