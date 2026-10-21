@@ -33,6 +33,7 @@ Content script en TypeScript, empaquetado con esbuild en `extension/dist/`. No p
 npm run build -w extension        # compila en extension/dist (cargar "sin empaquetar" en chrome://extensions)
 npm run test:e2e -w extension     # E2E con Playwright: páginas guardadas + API simulada
 npm run empaquetar -w extension   # extension/lotero-<versión>.zip para la Chrome Web Store
+npm run capturas -w extension     # capturas y mosaico de la ficha en store/capturas (usa la red)
 node extension/iconos/generar.mjs # regenera los PNG del icono desde icono.svg
 ```
 
