@@ -108,6 +108,14 @@ describe("CORS", () => {
     expect(respuesta.headers.get("vary")).toContain("Origin");
   });
 
+  it("autoriza el origen de la web de consulta", async () => {
+    const respuesta = await pedir("/api/resultados/00006", {
+      headers: { Origin: "https://ogires.github.io" },
+    });
+
+    expect(respuesta.headers.get("access-control-allow-origin")).toBe("https://ogires.github.io");
+  });
+
   it("no autoriza otros orígenes", async () => {
     const respuesta = await pedir("/api/resultados/00004", {
       headers: { Origin: "https://otra-web.example" },

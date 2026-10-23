@@ -4,6 +4,8 @@ Extensión de Chrome que, en las páginas de compra de [juegosonce.es](https://w
 
 No está afiliada a la ONCE ni a Loterías y Apuestas del Estado.
 
+La Chrome Web Store no la admite (su política prohíbe las extensiones que facilitan loterías), así que la versión pública es la web de consulta: https://ogires.github.io/lotero/. La extensión se puede cargar sin empaquetar para uso personal.
+
 ## Estructura
 
 | Carpeta | Contenido |
@@ -12,7 +14,7 @@ No está afiliada a la ONCE ni a Loterías y Apuestas del Estado.
 | `api/` | API y scraper: Cloudflare Worker + D1 |
 | `scripts/` | Carga inicial del histórico de resultados (Node, se ejecuta en local) |
 | `store/` | Textos y capturas para la ficha de la Chrome Web Store |
-| `docs/` | Web pública en GitHub Pages (política de privacidad) |
+| `docs/` | Web pública en GitHub Pages: consulta de números y política de privacidad |
 
 ## Desarrollo
 

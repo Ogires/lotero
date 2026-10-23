@@ -19,7 +19,7 @@
   },
   "vars": {
     // Orígenes autorizados por CORS, separados por comas.
-    "ORIGENES_PERMITIDOS": "https://www.juegosonce.es",
+    "ORIGENES_PERMITIDOS": "https://www.juegosonce.es,https://ogires.github.io",
     // Workflow que dispara el cron.
     "GITHUB_REPO": "Ogires/lotero",
     "GITHUB_WORKFLOW": "actualizar.yml",
